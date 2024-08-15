@@ -4,9 +4,6 @@ plugins {
     id("com.google.dagger.hilt.android")
     id("kotlin-kapt")
     kotlin("kapt")
-    /*kotlin("android")
-    kotlin("android.extensions")
-    kotlin("kapt")*/
 }
 
 android {
