@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Penguin Pay</string>
+    <string name="transactions_title">Transactions</string>
+    <string name="transaction">Transaction</string>
+    <string name="error">Error</string>
+    <string name="first_name">Enter recipient firstname</string>
+    <string name="surname">Enter recipient surname</string>
+    <string name="recipient_country">Select recipient country</string>
+    <string name="sender_amount">Sender amount</string>
+    <string name="receiver_amount">Recipient amount</string>
+    <string name="recipient_cellphone">Recipient cellphone</string>
+    <string name="send">Send</string>
+    <string name="sending_transaction">Transaction sent successfully.</string>
+    <string name="validation_error_message">Please enter valid Binarian Dollar</string>
+    <string name="select_country_first_message">Please select country first</string>
+    <string name="enter_valid_phone_number">Please enter valid phone number</string>
+    <string name="start_transaction">Start Transaction</string>
+</resources>
