@@ -1,4 +1,4 @@
-package com.lawrence.binariasendmoney.networking
+package com.lawrence.data.networking
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

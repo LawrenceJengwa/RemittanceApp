@@ -1,10 +1,10 @@
 package com.lawrence.binariasendmoney
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.lawrence.binariasendmoney.networking.data.response.LatestRatesResponse
-import com.lawrence.binariasendmoney.networking.data.response.Rates
+import com.lawrence.data.model.LatestRatesResponse
 import com.lawrence.binariasendmoney.repo.PenguinRepoImpl
 import com.lawrence.binariasendmoney.viewModel.TransactionsViewModel
+import com.lawrence.data.model.Rates
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

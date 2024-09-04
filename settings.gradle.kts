@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "BinariaSendMoney"
 include(":app")
- 
+include(":data")

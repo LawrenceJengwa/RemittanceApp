@@ -1,9 +1,8 @@
-import com.lawrence.binariasendmoney.networking.PenguinNetworkService
-import com.lawrence.binariasendmoney.networking.data.Endpoints.APP_ID
-import com.lawrence.binariasendmoney.networking.data.Endpoints.BASE_URL
-import com.lawrence.binariasendmoney.networking.data.response.LatestRatesResponse
-import com.lawrence.binariasendmoney.networking.data.response.Rates
+import com.lawrence.data.networking.data.Endpoints.APP_ID
+import com.lawrence.data.networking.data.Endpoints.BASE_URL
+import com.lawrence.data.model.LatestRatesResponse
 import com.lawrence.binariasendmoney.repo.PenguinRepoImpl
+import com.lawrence.data.model.Rates
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
 import org.junit.Before
@@ -18,7 +17,7 @@ import retrofit2.Response
 class PenguinRepoImplTest {
 
     @Mock
-    private lateinit var mockNetworkService: PenguinNetworkService
+    private lateinit var mockNetworkService: com.lawrence.data.networking.PenguinNetworkService
 
     private lateinit var repo: PenguinRepoImpl
 

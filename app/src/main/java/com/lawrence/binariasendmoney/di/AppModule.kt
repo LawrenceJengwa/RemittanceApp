@@ -1,7 +1,7 @@
 package com.lawrence.binariasendmoney.di
 
-import com.lawrence.binariasendmoney.networking.PenguinNetworkService
-import com.lawrence.binariasendmoney.networking.data.Endpoints.BASE_URL
+import com.lawrence.data.networking.PenguinNetworkService
+import com.lawrence.data.networking.data.Endpoints.BASE_URL
 import com.lawrence.binariasendmoney.repo.PenguinRepoImpl
 import com.lawrence.binariasendmoney.repo.PenguinRepository
 import dagger.Module

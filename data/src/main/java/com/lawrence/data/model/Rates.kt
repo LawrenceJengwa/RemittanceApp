@@ -1,4 +1,4 @@
-package com.lawrence.binariasendmoney.networking.data.response
+package com.lawrence.data.model
 
 data class Rates(
 

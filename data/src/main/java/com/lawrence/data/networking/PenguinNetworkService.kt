@@ -1,7 +1,7 @@
-package com.lawrence.binariasendmoney.networking
+package com.lawrence.data.networking
 
-import com.lawrence.binariasendmoney.networking.data.Endpoints
-import com.lawrence.binariasendmoney.networking.data.response.LatestRatesResponse
+import com.lawrence.data.networking.data.Endpoints
+import com.lawrence.data.model.LatestRatesResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

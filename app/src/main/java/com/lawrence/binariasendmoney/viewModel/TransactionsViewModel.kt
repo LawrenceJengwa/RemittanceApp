@@ -6,17 +6,19 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.lawrence.binariasendmoney.networking.data.Endpoints.APP_ID
-import com.lawrence.binariasendmoney.networking.data.response.Rates
+import com.lawrence.data.networking.data.Endpoints.APP_ID
+import com.lawrence.data.model.Rates
 import com.lawrence.binariasendmoney.repo.PenguinRepository
 import com.lawrence.binariasendmoney.utility.Constants.BASE_CURRENCY
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.supervisorScope
 import javax.inject.Inject
 
 @HiltViewModel
@@ -71,6 +73,13 @@ class TransactionsViewModel @Inject constructor(
 
     private fun updateConvertAmount(amount: String) {
         convertedAmount = amount
+    }
+
+    suspend fun scopeFunc() {
+        CoroutineScope(Dispatchers.IO).launch {  }
+        supervisorScope {
+
+        }
     }
 
     fun getLatestExchangeRate() {

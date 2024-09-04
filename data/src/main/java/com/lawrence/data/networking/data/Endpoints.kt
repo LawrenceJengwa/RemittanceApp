@@ -1,4 +1,4 @@
-package com.lawrence.binariasendmoney.networking.data
+package com.lawrence.data.networking.data
 
 object Endpoints {
 

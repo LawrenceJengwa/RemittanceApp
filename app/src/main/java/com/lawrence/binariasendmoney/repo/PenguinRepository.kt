@@ -1,6 +1,6 @@
 package com.lawrence.binariasendmoney.repo
 
-import com.lawrence.binariasendmoney.networking.data.response.LatestRatesResponse
+import com.lawrence.data.model.LatestRatesResponse
 import retrofit2.Response
 
 interface PenguinRepository {

@@ -1,8 +1,7 @@
 package com.lawrence.binariasendmoney.repo
 
-import com.lawrence.binariasendmoney.networking.PenguinNetworkService
-import com.lawrence.binariasendmoney.networking.data.response.LatestRatesResponse
-import kotlinx.coroutines.CoroutineDispatcher
+import com.lawrence.data.networking.PenguinNetworkService
+import com.lawrence.data.model.LatestRatesResponse
 import retrofit2.Response
 import javax.inject.Inject
 
