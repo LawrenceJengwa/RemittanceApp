@@ -26,8 +26,9 @@ class TransactionsActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     PenguinTransactionScreen(
-                        viewModel = viewModel,
-                        setSelected = {viewModel.setSelected(it)})
+                        viewModel = viewModel
+                    )
+
                 }
             }
         }
